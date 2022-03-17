@@ -3,7 +3,7 @@
 	export let name;
     onMount(async() => {
         console.log('try to fetch');
-        let response = await fetch('https://raw.githubusercontent.com/saewoonam/svelte-pages/main/src/App.svelte');
+        let response = await fetch('https://raw.githubusercontent.com/saewoonam/svelte-pages-v2/main/src/App.svelte');
         let t = await response.text()
         console.log('results:', t);
     });
